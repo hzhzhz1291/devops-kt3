@@ -11,7 +11,7 @@ function get(path) {
 test('GET / returns the KT3 title', () => {
   const response = get('/');
   expect(response.statusCode).toBe(200);
-  expect(response.end).toHaveBeenCalledWith('Intentional CI failure');
+  expect(response.end).toHaveBeenCalledWith('KT3 App');
 });
 
 test('GET /health returns JSON status ok', () => {
