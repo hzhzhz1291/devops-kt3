@@ -11,7 +11,7 @@ function get(path) {
 test('GET / returns the KT3 title', () => {
   const response = get('/');
   expect(response.statusCode).toBe(200);
-  expect(response.end).toHaveBeenCalledWith('KT3 App');
+  expect(response.end).toHaveBeenCalledWith('Wrong response for CI demo');
 });
 
 test('GET /health returns JSON status ok', () => {
