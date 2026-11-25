@@ -1,0 +1,17 @@
+{
+  "name": "devops-kt3",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "lint": "eslint .",
+    "test": "jest --runInBand"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.0",
+    "eslint": "^9.39.0",
+    "globals": "^16.0.0",
+    "jest": "^30.0.0",
+    "pg": "^8.16.0"
+  }
+}
